@@ -1,4 +1,4 @@
-package com.myProject.demo.com.myProject.demo.model;
+package com.myProject.demo.model;
 
 public class PersonFactory {
 
