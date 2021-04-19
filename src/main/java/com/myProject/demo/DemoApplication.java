@@ -15,20 +15,6 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		PersonFactory factory = new PersonFactory();
-		Person p = factory.getPerson("John", 33);
-
-		File myObj = new File("C:\\Users\\ionut-mihai.suciu\\testFile.txt");
-
-		try {
-			FileWriter myWriter = new FileWriter(myObj);
-			myWriter.write(p.getName());
-			myWriter.write(p.getAge());
-			myWriter.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
 	}
 
 }
